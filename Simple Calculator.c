@@ -20,10 +20,10 @@ int main () {
 	scanf ("%lf", &angkaKedua);
 	switch (input) {
 		case 1 :
-			printf ("Hasil %26s: %.2lf"," ", add(angkaPertama, angkaKedua));
+			printf ("Hasil %26s: %.2lf"," ", add(angkaPertama, angkaKedua)); //Fungsi penjumlahan pada kalkulator
 			break;
 		case 2 :
-			printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua));
+			printf ("Hasil %26s: %.2lf"," ", mul(angkaPertama, angkaKedua)); //Fungsi untuk perkalian pada kalkulator
 			break;
 		case 3 :
 			break;
